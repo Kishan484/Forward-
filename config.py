@@ -6,7 +6,7 @@ from os import environ
 
 class Config:
     API_ID = int(environ.get("API_ID", "29601499"))
-    API_HASH = environ.get("API_HASH", "7589031868:AAGfZ3Z4WIzW-iYg42kr94lBTsXQlVPkmcc)
+    API_HASH = environ.get("API_HASH", "178b830d797439a090f203f450b7de42")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Kishan99:Kishan99@kishan99.chxfq.mongodb.net/?retryWrites=true&w=majority&appName=Kishan99")
